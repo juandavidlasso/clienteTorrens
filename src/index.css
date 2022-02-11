@@ -11,3 +11,131 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Estilos */
+.user_card {
+  width: 350px;
+  margin-top: 10%;
+  margin-bottom: auto;
+  background: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 70px 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+
+}
+.brand_logo_container {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  top: -75px;
+  border-radius: 50%;
+  background: #60a3bc;
+  padding: 10px;
+  text-align: center;
+}
+.brand_logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.form_container {
+  margin-top: 100px;
+}
+.login_btn {
+  width: 100%;
+  background: #c0392b;
+  color: white;
+}
+.login_btn:focus {
+  box-shadow: none;
+  outline: 0px;
+}
+.login_btn:hover {
+  background: #60a3bc;
+}
+.login_container {
+  padding: 0 2rem;
+}
+.input-group-text {
+  background: #c0392b !important;
+  color: white !important;
+  border: 0 !important;
+  border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+
+
+/* Inicio */
+.panel {
+  background: yellow;
+}
+
+#SideNav-10 {
+  background: #424242;
+}
+.header1 {
+  background: white;
+}
+
+.sidenav .sidenavp .user-view .circle {
+  width: 200px;
+  height: 200px;
+}
+.sidenav .txtBtn a {
+  color: white;
+}
+.sidenav .txtBtn .prefix{
+  color: white;
+}
+
+.header1 .nav-wrapper ul li a {
+  color: black;
+}
+
+.btnRegistro {
+  padding: 10px 30px;
+  border-radius: 15px;
+  color: white;
+  background: orange;
+  border-color: orange;
+  border: 1px solid orange;
+}
+.btnRegistro:hover {
+  background: darkgoldenrod;
+  border: 1px solid darkgoldenrod;
+}
+
+.btnEditar {
+  padding: 5px 10px;
+  color: black;
+  background: yellow;
+  border: 1px solid yellow;
+  width: 80px;
+}
+.btnEditar:hover {
+  background: darkkhaki;
+  border: 1px solid darkkhaki;
+}
+
+.btnEliminar {
+  padding: 5px 10px;
+  color: white;
+  background: red;
+  border: 1px solid red;
+  width: 80px;
+}
+.btnEliminar:hover {
+  background: darkred;
+  border: 1px solid darkred;
+}
