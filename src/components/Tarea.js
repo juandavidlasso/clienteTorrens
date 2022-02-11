@@ -41,9 +41,9 @@ const Tarea = () => {
             })
         }
         if(rol === 1) {
-            obtenerTareas()
+            obtenerTareas();
         } else {
-            obtenerTarea()
+            obtenerTarea();
         }
     }, [])
 
