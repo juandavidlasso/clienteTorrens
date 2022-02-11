@@ -40,8 +40,11 @@ const Tarea = () => {
                 setDatos(result.data.data)
             })
         }
-        // obtenerTareas()
-        obtenerTarea()
+        if(rol === 1) {
+            obtenerTareas()
+        } else {
+            obtenerTarea()
+        }
     }, [])
 
     // Eliminar una tarea
